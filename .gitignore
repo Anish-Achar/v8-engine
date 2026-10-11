@@ -1,0 +1,6 @@
+# Build output from source/build.ps1 (it copies SOLIDWORKS' own interop DLLs in here)
+source/bin/
+
+# SOLIDWORKS lock and backup files
+~$*
+*.bak
